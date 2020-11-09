@@ -15,3 +15,7 @@
 * [Commands](react/untitled-1/README.md)
   * [LocalStorage](react/untitled-1/localstorage.md)
 
+---
+
+* [Hacer Logs y su libreria](hacer-logs-y-su-libreria.md)
+
