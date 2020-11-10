@@ -18,4 +18,7 @@
 ---
 
 * [Hacer Logs y su libreria](hacer-logs-y-su-libreria.md)
+* [InfluxDB](influxdb/README.md)
+  * [Arquitecture](influxdb/arquitecture.md)
+  * [Aggregate functions](influxdb/aggregate-functions.md)
 
