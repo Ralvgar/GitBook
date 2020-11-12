@@ -13,6 +13,7 @@
   * [React Transition Group](react/useful-libraries/react-transition-group.md)
   * [Visx](react/useful-libraries/visx.md)
 * [Commands](react/untitled-1/README.md)
+  * [React hooks](react/untitled-1/react-hooks.md)
   * [LocalStorage](react/untitled-1/localstorage.md)
 
 ---
