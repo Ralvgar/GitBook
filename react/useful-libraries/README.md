@@ -8,7 +8,7 @@
 
 {% page-ref page="nanoid.md" %}
 
-{% page-ref page="react-router.md" %}
+{% page-ref page="react-router/" %}
 
 {% page-ref page="react-transition-group.md" %}
 
