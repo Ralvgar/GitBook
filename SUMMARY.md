@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Initial page](README.md)
+* [JavaScript promises](javascript-promises.md)
 
 ## React
 
