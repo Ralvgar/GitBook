@@ -4,7 +4,7 @@ description: it gives acces to the history and can be used to navigate through y
 
 # useHistory\(\)
 
-```text
+```javascript
 Import { useHistory } from "react-router-dom";
 
 function HomeButton() {

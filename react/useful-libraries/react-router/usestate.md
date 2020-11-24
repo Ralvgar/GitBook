@@ -4,7 +4,7 @@ You can use params of your url route to pass info to other components of your ap
 
 
 
-```text
+```javascript
 <Route path="/unexpected-error/:id" component={UnexpectedError} />
 
 const UnexpectedError = () => {

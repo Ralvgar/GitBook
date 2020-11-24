@@ -2,7 +2,7 @@
 
 Its to render the UI when the path matches the current URL.
 
-```text
+```javascript
 import React from 'react';
 import { HashRouter, Switch, Route  } from "react-router-dom";
 
@@ -23,7 +23,7 @@ function App() {
 
 It can also handle diferent routes to for the same component
 
-```text
+```javascript
 <Route path={['/', '/main']} exact>
    <ScrollToTop>
       <Main />
@@ -33,7 +33,7 @@ It can also handle diferent routes to for the same component
 
 the component can also gived with the compoment prop
 
-```text
+```javascript
  <Route path="/unexpected-error/:route" component={UnexpectedError} />
 ```
 
