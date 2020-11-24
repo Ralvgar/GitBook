@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Initial page](README.md)
-* [JavaScript promises](javascript-promises.md)
 
 ## React
 
@@ -23,7 +22,13 @@
 ---
 
 * [Hacer Logs y su libreria](hacer-logs-y-su-libreria.md)
-* [InfluxDB](influxdb/README.md)
-  * [Arquitecture](influxdb/arquitecture.md)
-  * [Aggregate functions](influxdb/aggregate-functions.md)
+
+## JavaScript <a id="javascript-1"></a>
+
+* [JavaScript promises](javascript-1/javascript-promises.md)
+
+## InfluxDB <a id="influxdb-1"></a>
+
+* [Arquitecture](influxdb-1/arquitecture/README.md)
+  * [Aggregate functions](influxdb-1/arquitecture/aggregate-functions.md)
 
