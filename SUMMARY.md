@@ -1,9 +1,10 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Mallorca Bootcamp](README.md)
 
 ## React
 
+* [JSX](react/jsx.md)
 * [Useful Libraries](react/useful-libraries/README.md)
   * [Axios](react/useful-libraries/axios.md)
   * [FontAwesome](react/useful-libraries/fontawesome.md)
@@ -28,16 +29,30 @@
 * [Environment variable](javascript-1/environment-variable.md)
 * [JavaScript promises](javascript-1/javascript-promises.md)
 
-## InfluxDB <a id="influxdb-1"></a>
+## Databases
 
-* [Arquitecture](influxdb-1/arquitecture/README.md)
-  * [Aggregate functions](influxdb-1/arquitecture/aggregate-functions.md)
+* [MongoDB](databases/mongodb.md)
+* [InfluxDB](databases/influxdb/README.md)
+  * [Arquitecture](databases/influxdb/arquitecture/README.md)
+    * [Aggregate functions](databases/influxdb/arquitecture/aggregate-functions.md)
 
 ## CSS
 
+* [Animations & Transitions](css/animations-and-transitions.md)
+* [Cross browser compatibility](css/cross-browser-compatibility.md)
 * [Methodologies](css/methodologies/README.md)
   * [OOCSS](css/methodologies/oocss.md)
   * [BEM](css/methodologies/bem.md)
   * [SMACSS](css/methodologies/smacss.md)
 * [Specificity](css/specificity.md)
+
+## Deploy
+
+* [NodeJS app deployment](deploy/nodejs-app-deployment.md)
+* [React app deployment](deploy/react-app-deployment.md)
+* [CI \(Continous integration\)](deploy/ci-continous-integration.md)
+
+## HTML5
+
+* [Local storage](html5/local-storage.md)
 
