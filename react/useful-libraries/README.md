@@ -12,6 +12,8 @@
 
 {% page-ref page="react-transition-group.md" %}
 
+{% page-ref page="styled-components.md" %}
+
 {% page-ref page="visx.md" %}
 
 

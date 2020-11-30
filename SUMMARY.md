@@ -15,6 +15,7 @@
     * [useHistory\(\)](react/useful-libraries/react-router/usehistory.md)
     * [useState\(\)](react/useful-libraries/react-router/usestate.md)
   * [React Transition Group](react/useful-libraries/react-transition-group.md)
+  * [Styled Components](react/useful-libraries/styled-components.md)
   * [Visx](react/useful-libraries/visx.md)
 * [Commands](react/untitled-1/README.md)
   * [React hooks](react/untitled-1/react-hooks.md)
