@@ -8,7 +8,6 @@ styled-components utilises tagged template literals to style your components.
 // Create a Title component that'll render an <h1> tag with some styles
 const Title = styled.h1`
   font-size: 1.5em;
-  text-align: center;
   color: palevioletred;
 `;
 
@@ -35,7 +34,6 @@ const Button = styled.button`
   /* Adapt the colors based on primary prop */
   background: ${props => props.primary ? "palevioletred" : "white"};
   color: ${props => props.primary ? "white" : "palevioletred"};
-  font-size: 1em;
   border-radius: 3px;
 `;
 
@@ -262,8 +260,6 @@ const rotate = keyframes`
 const Rotate = styled.div`
   display: inline-block;
   animation: ${rotate} 2s linear infinite;
-  padding: 2rem 1rem;
-  font-size: 1.2rem;
 `;
 
 render(
