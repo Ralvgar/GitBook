@@ -27,6 +27,7 @@
 
 ## JavaScript <a id="javascript-1"></a>
 
+* [Capturing, Target and Bubbling.](javascript-1/capturing-target-and-bubbling..md)
 * [Environment variable](javascript-1/environment-variable.md)
 * [JavaScript promises](javascript-1/javascript-promises.md)
 
