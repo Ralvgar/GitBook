@@ -4,6 +4,7 @@
 
 ## React
 
+* [React testing](react/react-testing.md)
 * [JSX](react/jsx.md)
 * [Useful Libraries](react/useful-libraries/README.md)
   * [Axios](react/useful-libraries/axios.md)
