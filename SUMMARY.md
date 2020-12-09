@@ -41,7 +41,8 @@
 
 ## CSS
 
-* [Preprocessors](css/preprocessors.md)
+* [Preprocessors](css/preprocessors/README.md)
+  * [Sass: Syntactically Awesome Style Sheet](css/preprocessors/sass-syntactically-awesome-style-sheet.md)
 * [CSS Libraries](css/css-libraries.md)
 * [Animations & Transitions](css/animations-and-transitions.md)
 * [Cross browser compatibility](css/cross-browser-compatibility.md)
