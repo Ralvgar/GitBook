@@ -41,6 +41,8 @@
 
 ## CSS
 
+* [Preprocessors](css/preprocessors.md)
+* [CSS Libraries](css/css-libraries.md)
 * [Animations & Transitions](css/animations-and-transitions.md)
 * [Cross browser compatibility](css/cross-browser-compatibility.md)
 * [Methodologies](css/methodologies/README.md)
