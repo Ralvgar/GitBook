@@ -43,6 +43,7 @@
 
 * [Preprocessors](css/preprocessors/README.md)
   * [Sass: Syntactically Awesome Style Sheet](css/preprocessors/sass-syntactically-awesome-style-sheet.md)
+  * [LESS: Leaner Style Sheets](css/preprocessors/less-leaner-style-sheets.md)
 * [CSS Framework](css/css-libraries.md)
 * [Animations & Transitions](css/animations-and-transitions.md)
 * [Cross browser compatibility](css/cross-browser-compatibility.md)
