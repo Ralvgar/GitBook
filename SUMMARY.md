@@ -28,6 +28,7 @@
 
 ## JavaScript <a id="javascript-1"></a>
 
+* [Connection with REST APIs](javascript-1/connection-with-rest-apis.md)
 * [Capturing, Target and Bubbling.](javascript-1/capturing-target-and-bubbling..md)
 * [Environment variable](javascript-1/environment-variable.md)
 * [JavaScript promises](javascript-1/javascript-promises.md)
