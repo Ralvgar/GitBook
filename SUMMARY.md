@@ -43,7 +43,7 @@
 
 * [Preprocessors](css/preprocessors/README.md)
   * [Sass: Syntactically Awesome Style Sheet](css/preprocessors/sass-syntactically-awesome-style-sheet.md)
-* [CSS Libraries](css/css-libraries.md)
+* [CSS Framework](css/css-libraries.md)
 * [Animations & Transitions](css/animations-and-transitions.md)
 * [Cross browser compatibility](css/cross-browser-compatibility.md)
 * [Methodologies](css/methodologies/README.md)
@@ -55,6 +55,7 @@
 ## Deploy
 
 * [NodeJS app deployment](deploy/nodejs-app-deployment.md)
+* [publishing a package to NPM](deploy/publishing-a-package-to-npm.md)
 * [React app deployment](deploy/react-app-deployment.md)
 * [CI \(Continous integration\)](deploy/ci-continous-integration.md)
 
