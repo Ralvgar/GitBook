@@ -19,7 +19,8 @@
   * [Styled Components](react/useful-libraries/styled-components.md)
   * [Visx](react/useful-libraries/visx.md)
 * [Commands](react/untitled-1/README.md)
-  * [React hooks](react/untitled-1/react-hooks.md)
+  * [React hooks](react/untitled-1/react-hooks/README.md)
+    * [useRef](react/untitled-1/react-hooks/useref.md)
   * [LocalStorage](react/untitled-1/localstorage.md)
 
 ---
