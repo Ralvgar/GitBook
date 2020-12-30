@@ -4,6 +4,7 @@
 
 ## React
 
+* [Function vs class components](react/function-vs-class-components.md)
 * [React testing](react/react-testing.md)
 * [JSX](react/jsx.md)
 * [Useful Libraries](react/useful-libraries/README.md)
