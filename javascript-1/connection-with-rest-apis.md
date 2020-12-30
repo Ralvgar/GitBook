@@ -8,6 +8,17 @@ An **API** is an application programming interface. It is a set of rules that al
 
 Each URL is called a **request** while the data sent back to you is called a **response**.
 
+### What makes a web service REST
+
+Rest is an architecture concept instead Restful is a Web Service.
+
+Usually RESTful web services have these characteristics: 
+
+* It is associated with information
+* They allow you to list, create, read, update and delete information 
+* For the above operations they need a URL and an HTTP method to access them
+* They usually return the information in JSON format. They return HTML response codes, for example 200, 201, 404, etc. 
+
 ## The Anatomy Of A Request
 
  A request is made up of four things:
@@ -62,7 +73,16 @@ Headers are used to provide information to both the client and server. It can be
 
 The data **** contains information you want to be sent to the server. This option is only used with `POST`, `PUT`, `PATCH` or `DELETE` requests.
 
-{% embed url="https://www.smashingmagazine.com/2018/01/understanding-using-rest-api/" %}
+### **REST VS RESTful:**
+
+| **Attributes** |  **REST** |  **RESTful** |
+| :--- | :--- | :--- |
+|  **Definitions**   | It is used to develop APIs which enable interaction between the client and the server. It should be used to get a piece of data when the user connects any link to the particular URL. | It is a web application that follows the REST infrastructure which provides interoperability between different systems on the entire network. |
+|  **Web services** | The working of the URL is based on request and response. | The working of RESTful is completely based on REST applications. |
+|  **Data format** | The data format of REST is based on HTTP. | The data format of RESTful is based on JSON, HTTP, and Text. |
+|  **Adaptability** | It is highly adaptable and user friendly to all the business enterprises and IT. | It is too flexible when compared to RESTLESS web services. |
+|  **Protocol** | The protocol is strong and it inherits many security measures which are built-in architecture layers. | It is multi-layer and has a transport protocol which makes the system less secure when compared with REST. |
+|  **Bandwidth** | Consumes only minimum bandwidth. | Consumes less bandwidth. |
 
 
 
