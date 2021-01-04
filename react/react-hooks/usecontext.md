@@ -42,5 +42,3 @@ function GrandChildComponent() {
 
 Context works just like a normal function where you call the context and it will give you the values inside of it for you to use later in the code.
 
-
-
