@@ -20,6 +20,7 @@
   * [Styled Components](react/useful-libraries/styled-components.md)
   * [Visx](react/useful-libraries/visx.md)
 * [React hooks](react/react-hooks/README.md)
+  * [useContext](react/react-hooks/usecontext.md)
   * [useMemo](react/react-hooks/usememo.md)
   * [useEffect](react/react-hooks/useeffect.md)
   * [useState](react/react-hooks/usestate.md)
