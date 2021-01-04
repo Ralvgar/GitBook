@@ -6,39 +6,79 @@ React uses state to store data and props to pass data between components. This w
 
 With the context API you can specify certain pieces of data that will be available to all components nested inside the context with no need to pass this data through each component. It is essentially semi-global state that is available anywhere inside the context.
 
-```text
+```javascript
+//Basic template for context
+
+import React, { useContext, useState } from 'react';
+
+
 const ThemeContext = React.createContext()
+const ThemeUpdateContext = React.createContext()
+
+export function useTheme() {
+    return useContext(ThemeContext)
+}
+
+export function useThemeUpdate() {
+    return useContext(ThemeUpdateContext)
+}
+
+export function ThemeProvider ({children}) {
+    const [darkTheme, setDarkTheme] = useState(true)
+    
+    function toggleTheme() {
+        setDarkTheme( prevDarkTheme => !prevDarkTheme)
+    }
+
+    return (
+        <ThemeContext.Provider value={darkTheme}>
+            <ThemeUpdateContext.Provider value={toggleTheme}>
+                {children}
+            </ThemeUpdateContext.Provider>
+        </ThemeContext.Provider>
+    )
+}
+```
+
+```javascript
+// Main screen
+
+import FunctionContextComponent from './FunctionContextComponent'
+import { ThemeProvider } from './ThemeContext'
 
 function App() {
-  const [theme, setTheme] = useState('dark')
-
-  return (
-    <ThemeContext.Provider value={{ theme, setTheme }}>
-      <ChildComponent />
-    </ThemeContext.Provider>
-  )
+    return (
+    <ThemeProvider>
+        <FunctionCOntextComponent />
+    </ThemeProvider>
+    )
 }
 ```
 
-```text
-function ChildComponent() {
-  return <GrandChildComponent />
-}
-```
+```javascript
+// inside components
 
-```text
-function GrandChildComponent() {
-  const { theme, setTheme } = useContext(ThemeContext)
-  return (
-    <>
-      <div>The theme is {theme}</div>
-      <button onClick={() => setTheme('light')}>
-        Change To Light Theme
-      </button>
-    </>
-  )
+import React from 'react';
+import { useTheme, useThemeUpdate } from './ThemeContext';
+
+export default function FunctionContextComponent() {
+    const darkTheme = useTheme()
+    const toggleTheme = useThemeUpdate()
+    const themeStyles = {
+        backgroundColor: darkTheme ? '#333' : '#CCC',
+        color: darkTheme ? '#CCC' :'#333',
+    }
+
+    return (
+        <>
+            <button onClick={toggleTheme}>Toggle Theme</button>
+            <div style={themeStyles}>Function Theme</div>
+        </>
+    )
 }
 ```
 
 Context works just like a normal function where you call the context and it will give you the values inside of it for you to use later in the code.
+
+
 
