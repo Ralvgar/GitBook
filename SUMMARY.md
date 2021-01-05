@@ -4,6 +4,7 @@
 
 ## React
 
+* [Testing with Jest](react/testing-with-jest.md)
 * [PWA](react/pwa.md)
 * [Function vs class components](react/function-vs-class-components.md)
 * [React testing](react/react-testing.md)
