@@ -9,7 +9,6 @@ Visx can fit into any React app regardless of the architecture.
 Example from [codos-app-client](https://github.com/mallorcabootcamp/codos-app-client):
 
 ```javascript
-//eslint-disable-next-line
 import React, { FunctionComponent, useMemo } from "react";
 import { AreaClosed } from "@visx/shape";
 import { scaleLinear, scaleTime } from "@visx/scale";
