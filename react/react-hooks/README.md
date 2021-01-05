@@ -1,5 +1,7 @@
 # React hooks
 
+{% page-ref page="usecallback.md" %}
+
 {% page-ref page="usecontext.md" %}
 
 {% page-ref page="useeffect.md" %}
