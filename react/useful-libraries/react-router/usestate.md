@@ -1,4 +1,4 @@
-# useState\(\)
+# useParams\(\)
 
 You can use params of your url route to pass info to other components of your app with useState.
 

@@ -1,6 +1,16 @@
 # React hooks
 
-Resumir
+{% page-ref page="usecontext.md" %}
 
-[https://dev.to/devcord/react-hooks-useeffect-usecallback-usememo-3o42](https://dev.to/devcord/react-hooks-useeffect-usecallback-usememo-3o42)
+{% page-ref page="useeffect.md" %}
+
+{% page-ref page="usememo.md" %}
+
+{% page-ref page="usereducer.md" %}
+
+{% page-ref page="useref.md" %}
+
+{% page-ref page="usestate.md" %}
+
+
 
