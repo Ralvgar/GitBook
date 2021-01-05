@@ -43,31 +43,31 @@
 
 ## Databases
 
-* [MongoDB](databases/mongodb.md)
 * [InfluxDB](databases/influxdb/README.md)
   * [Arquitecture](databases/influxdb/arquitecture/README.md)
     * [Aggregate functions](databases/influxdb/arquitecture/aggregate-functions.md)
+* [MongoDB](databases/mongodb.md)
 
 ## CSS
 
-* [Preprocessors](css/preprocessors/README.md)
-  * [Sass: Syntactically Awesome Style Sheet](css/preprocessors/sass-syntactically-awesome-style-sheet.md)
-  * [LESS: Leaner Style Sheets](css/preprocessors/less-leaner-style-sheets.md)
-* [CSS Framework](css/css-libraries.md)
 * [Animations & Transitions](css/animations-and-transitions.md)
 * [Cross browser compatibility](css/cross-browser-compatibility.md)
+* [CSS Framework](css/css-libraries.md)
 * [Methodologies](css/methodologies/README.md)
   * [OOCSS](css/methodologies/oocss.md)
   * [BEM](css/methodologies/bem.md)
   * [SMACSS](css/methodologies/smacss.md)
+* [Preprocessors](css/preprocessors/README.md)
+  * [Sass: Syntactically Awesome Style Sheet](css/preprocessors/sass-syntactically-awesome-style-sheet.md)
+  * [LESS: Leaner Style Sheets](css/preprocessors/less-leaner-style-sheets.md)
 * [Specificity](css/specificity.md)
 
 ## Deploy
 
+* [CI \(Continous integration\)](deploy/ci-continous-integration.md)
 * [NodeJS app deployment](deploy/nodejs-app-deployment.md)
 * [publishing a package to NPM](deploy/publishing-a-package-to-npm.md)
 * [React app deployment](deploy/react-app-deployment.md)
-* [CI \(Continous integration\)](deploy/ci-continous-integration.md)
 
 ## HTML5
 
