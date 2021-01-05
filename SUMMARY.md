@@ -4,11 +4,21 @@
 
 ## React
 
-* [Testing with Jest](react/testing-with-jest.md)
-* [PWA](react/pwa.md)
+* [Commands](react/untitled-1/README.md)
+  * [LocalStorage](react/untitled-1/localstorage.md)
 * [Function vs class components](react/function-vs-class-components.md)
-* [React testing](react/react-testing.md)
 * [JSX](react/jsx.md)
+* [PWA](react/pwa.md)
+* [React hooks](react/react-hooks/README.md)
+  * [useCallback](react/react-hooks/usecallback.md)
+  * [useContext](react/react-hooks/usecontext.md)
+  * [useEffect](react/react-hooks/useeffect.md)
+  * [useMemo](react/react-hooks/usememo.md)
+  * [useReducer](react/react-hooks/usereducer.md)
+  * [useRef](react/react-hooks/useref.md)
+  * [useState](react/react-hooks/usestate.md)
+* [React testing](react/react-testing.md)
+* [Testing with Jest](react/testing-with-jest.md)
 * [Useful Libraries](react/useful-libraries/README.md)
   * [Axios](react/useful-libraries/axios.md)
   * [FontAwesome](react/useful-libraries/fontawesome.md)
@@ -21,25 +31,15 @@
   * [React Transition Group](react/useful-libraries/react-transition-group.md)
   * [Styled Components](react/useful-libraries/styled-components.md)
   * [Visx](react/useful-libraries/visx.md)
-* [React hooks](react/react-hooks/README.md)
-  * [useCallback](react/react-hooks/usecallback.md)
-  * [useContext](react/react-hooks/usecontext.md)
-  * [useEffect](react/react-hooks/useeffect.md)
-  * [useMemo](react/react-hooks/usememo.md)
-  * [useReducer](react/react-hooks/usereducer.md)
-  * [useRef](react/react-hooks/useref.md)
-  * [useState](react/react-hooks/usestate.md)
-* [Commands](react/untitled-1/README.md)
-  * [LocalStorage](react/untitled-1/localstorage.md)
 
 ## JavaScript <a id="javascript-1"></a>
 
-* [ES](javascript-1/es.md)
-* [Connection with REST APIs](javascript-1/connection-with-rest-apis.md)
 * [Capturing, Target and Bubbling.](javascript-1/capturing-target-and-bubbling..md)
+* [Connection with REST APIs](javascript-1/connection-with-rest-apis.md)
 * [DOM](javascript-1/dom.md)
 * [Environment variable](javascript-1/environment-variable.md)
-* [JavaScript promises](javascript-1/javascript-promises.md)
+* [ES](javascript-1/es.md)
+* [Promises](javascript-1/javascript-promises.md)
 
 ## Databases
 
