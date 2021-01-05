@@ -4,6 +4,7 @@
 
 ## React
 
+* [PWA](react/pwa.md)
 * [Function vs class components](react/function-vs-class-components.md)
 * [React testing](react/react-testing.md)
 * [JSX](react/jsx.md)
@@ -29,10 +30,6 @@
   * [useState](react/react-hooks/usestate.md)
 * [Commands](react/untitled-1/README.md)
   * [LocalStorage](react/untitled-1/localstorage.md)
-
----
-
-* [Hacer Logs y su libreria](hacer-logs-y-su-libreria.md)
 
 ## JavaScript <a id="javascript-1"></a>
 
