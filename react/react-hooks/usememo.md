@@ -2,7 +2,7 @@
 
 ### What Is Memoization? <a id="what-is-memoization"></a>
 
-Memoization is essentially just caching. Imagine a complex function that is slow to run which takes `a` as an argument. In order to speed up this function, you can cache the results of running the function so that when the function is run with the same inputs you can use the cached value instead of recomputing the value. 
+Memoization is essentially just caching. In order to speed up a function, you can cache the results of running the function so that when the function is run with the same inputs you can use the cached value instead of recomputing the value. 
 
 ### `useMemo` <a id="usememo"></a>
 
