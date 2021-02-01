@@ -41,6 +41,7 @@
 * [Environment variable](javascript-1/environment-variable.md)
 * [ES](javascript-1/es.md)
 * [Express.js](javascript-1/express.js.md)
+* [GraphQL](javascript-1/graphql.md)
 * [Koa](javascript-1/koa.md)
 * [Modularity](javascript-1/modularity.md)
 * [Promises](javascript-1/javascript-promises.md)
