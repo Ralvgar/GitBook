@@ -14,8 +14,6 @@ A service worker is a script written in javascript that allows intercepting and 
 
 As service Workers have access to manage network requests, they can be very powerful, especially if used maliciously by an attacker, allowing things like script injection or replacing the whole site. This is why HTTPS is so important here, in order to prevent third parties from injecting them into your website.
 
-
-
 {% embed url="https://create-react-app.dev/docs/making-a-progressive-web-app/" %}
 
 
