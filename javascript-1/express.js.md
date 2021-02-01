@@ -82,8 +82,6 @@ export const users = (req: Request, res: Response, next: NextFunction) => {
 
 ```
 
-
-
 {% embed url="https://expressjs.com/" %}
 
 
