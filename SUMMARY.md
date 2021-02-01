@@ -43,6 +43,7 @@
 * [ES](javascript-1/es.md)
 * [Koa](javascript-1/koa.md)
 * [Promises](javascript-1/javascript-promises.md)
+* [Typescript](javascript-1/typescript.md)
 
 ## Databases
 
