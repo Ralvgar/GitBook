@@ -34,14 +34,15 @@
 
 ## JavaScript <a id="javascript-1"></a>
 
-* [Design Patterns](javascript-1/algorithms-and-patterns.md)
-* [Express.js](javascript-1/express.js.md)
 * [Capturing, Target and Bubbling.](javascript-1/capturing-target-and-bubbling..md)
 * [Connection with REST APIs](javascript-1/connection-with-rest-apis.md)
+* [Design Patterns](javascript-1/algorithms-and-patterns.md)
 * [DOM](javascript-1/dom.md)
 * [Environment variable](javascript-1/environment-variable.md)
 * [ES](javascript-1/es.md)
+* [Express.js](javascript-1/express.js.md)
 * [Koa](javascript-1/koa.md)
+* [Modularity](javascript-1/modularity.md)
 * [Promises](javascript-1/javascript-promises.md)
 * [Typescript](javascript-1/typescript.md)
 
