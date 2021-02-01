@@ -34,6 +34,7 @@
 
 ## JavaScript <a id="javascript-1"></a>
 
+* [Authentication and Authorization](javascript-1/authentication-and-authorization.md)
 * [Capturing, Target and Bubbling.](javascript-1/capturing-target-and-bubbling..md)
 * [Connection with REST APIs](javascript-1/connection-with-rest-apis.md)
 * [Design Patterns](javascript-1/algorithms-and-patterns.md)
