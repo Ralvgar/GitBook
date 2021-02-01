@@ -76,7 +76,7 @@ describe("Functions tests", () => {
 
 It is a design process. It’s a robust way of designing software components interactively, one unit at a time, by making sure that the individual component’s behavior is specified through unit tests beforehand.
 
-![](../.gitbook/assets/image%20%284%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
 1. Before you write implementation code, write some code that proves that the implementation works or fails. Watch the test fail before moving to the next step \(this is how we know that a passing test is not a false positive — how we test our tests\).
 2. Write the implementation code and watch the test pass.

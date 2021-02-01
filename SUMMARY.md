@@ -77,5 +77,6 @@
 
 ## HTML5
 
+* [Cache](html5/cache.md)
 * [Local storage](html5/local-storage.md)
 
