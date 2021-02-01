@@ -34,7 +34,6 @@
 
 ## JavaScript <a id="javascript-1"></a>
 
-* [Authentication and Authorization](javascript-1/authentication-and-authorization.md)
 * [Capturing, Target and Bubbling.](javascript-1/capturing-target-and-bubbling..md)
 * [Connection with REST APIs](javascript-1/connection-with-rest-apis.md)
 * [Design Patterns](javascript-1/algorithms-and-patterns.md)
@@ -45,7 +44,6 @@
 * [GraphQL](javascript-1/graphql.md)
 * [Koa](javascript-1/koa.md)
 * [Modularity](javascript-1/modularity.md)
-* [Promises](javascript-1/javascript-promises.md)
 * [Typescript](javascript-1/typescript.md)
 
 ## Databases
