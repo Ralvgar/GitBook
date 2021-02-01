@@ -155,3 +155,53 @@ const renderSmoothieListToDOM = (smoothieList) => {
 };
 ```
 
+## &lt;template&gt; Tag
+
+Another method I could have used is the &lt;template&gt; tag, it's used to hold some content that will be hidden when the page loads and then with JavaScript you can display it.
+
+Code from my classmate [Josemi](https://github.com/JosemiChaves9):
+
+```javascript
+<template id="smoothie-template">
+    <div class="smoothie d-flex justify-content-center">
+        <div class="list-inline pr-5">
+            <ul>
+                <li class="list-inline-item m-0"></li>
+                <li class="list-inline-item m-0"></li>
+                <li class="list-inline-item m-0"></li>
+                <li class="list-inline-item m-0"></li>
+
+            </ul>
+        </div>
+        <div>
+            <ul class="rating">
+                <li class="list-inline-item star star--active" data-score="1">⭐</li>
+                <li class="list-inline-item star" data-score="2">⭐</li>
+                <li class="list-inline-item star" data-score="3">⭐</li>
+                <li class="list-inline-item star" data-score="4">⭐</li>
+                <li class="list-inline-item star " data-score="5">⭐</li>
+            </ul>
+        </div>
+    </div>
+</template>
+
+///
+
+const template = document.getElementById("smoothie-template");
+
+const renderSmoothieListToDom = (smoothieList) => {
+    smoothieList.forEach((smoothieData, idx) => {
+        const clone = template.content.cloneNode(true);
+        var li = clone.querySelectorAll("li");
+        li[0].textContent = smoothieData.smoothie[0];
+        li[1].textContent = smoothieData.smoothie[1];
+        li[2].textContent = smoothieData.smoothie[2];
+        li[3].textContent = smoothieData.smoothie[3];
+        setStarEventListeners(clone, idx);
+        container.append(clone);
+    });
+};
+```
+
+
+
