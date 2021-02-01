@@ -34,7 +34,7 @@
 
 ## JavaScript <a id="javascript-1"></a>
 
-* [Algorithms and patterns](javascript-1/algorithms-and-patterns.md)
+* [Design Patterns](javascript-1/algorithms-and-patterns.md)
 * [Capturing, Target and Bubbling.](javascript-1/capturing-target-and-bubbling..md)
 * [Connection with REST APIs](javascript-1/connection-with-rest-apis.md)
 * [DOM](javascript-1/dom.md)
