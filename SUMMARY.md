@@ -34,6 +34,7 @@
 
 ## JavaScript <a id="javascript-1"></a>
 
+* [Algorithms and patterns](javascript-1/algorithms-and-patterns.md)
 * [Capturing, Target and Bubbling.](javascript-1/capturing-target-and-bubbling..md)
 * [Connection with REST APIs](javascript-1/connection-with-rest-apis.md)
 * [DOM](javascript-1/dom.md)
@@ -60,6 +61,7 @@
 * [Preprocessors](css/preprocessors/README.md)
   * [Sass: Syntactically Awesome Style Sheet](css/preprocessors/sass-syntactically-awesome-style-sheet.md)
   * [LESS: Leaner Style Sheets](css/preprocessors/less-leaner-style-sheets.md)
+* [Pseudo class & Pseudo elements](css/pseudo-class-and-pseudo-elements.md)
 * [Specificity](css/specificity.md)
 
 ## Deploy
