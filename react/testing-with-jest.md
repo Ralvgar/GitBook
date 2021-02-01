@@ -70,6 +70,24 @@ describe("Functions tests", () => {
 })
 ```
 
+
+
+## TDD
+
+It is a design process. It’s a robust way of designing software components interactively, one unit at a time, by making sure that the individual component’s behavior is specified through unit tests beforehand.
+
+![](../.gitbook/assets/image%20%284%29.png)
+
+1. Before you write implementation code, write some code that proves that the implementation works or fails. Watch the test fail before moving to the next step \(this is how we know that a passing test is not a false positive — how we test our tests\).
+2. Write the implementation code and watch the test pass.
+3. Refactor if needed. You should feel confident refactoring your code now that you have a test to tell you if you’ve broken something.
+
+### Why TDD?
+
+In TDD, we write only a few lines of code each time to pass a failing unit test. So, our development cycle is very short, which makes debugging very easy too. Also it makes other developers’ lives easier by being able to understand how your feature should work.
+
+
+
 {% embed url="https://jestjs.io/" %}
 
 
