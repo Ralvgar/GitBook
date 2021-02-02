@@ -22,6 +22,7 @@
 * [Useful Libraries](react/useful-libraries/README.md)
   * [Axios](react/useful-libraries/axios.md)
   * [FontAwesome](react/useful-libraries/fontawesome.md)
+  * [Formik](react/useful-libraries/formik.md)
   * [Moment](react/useful-libraries/moment.md)
   * [NanoID](react/useful-libraries/nanoid.md)
   * [React Router](react/useful-libraries/react-router/README.md)
