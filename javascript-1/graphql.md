@@ -53,7 +53,7 @@ Status Code: 200 OK
 
 Since REST is enforced employing HTTP which already put caching into effect, you can use it to avert getting resources. GraphQL, on the other hand, has no caching system, thus leaving the users with the burden of handling caching on their own.
 
-There are some examples from our [beach sport rent](https://github.com/mallorcabootcamp/beach-sports-rent) project that uses also [apollo](https://www.apollographql.com/):
+There are some examples from our [beach sport rent](https://github.com/mallorcabootcamp/beach-sports-rent) project that also use [apollo](https://www.apollographql.com/):
 
 ```javascript
 // backend 
