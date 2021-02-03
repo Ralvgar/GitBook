@@ -17,6 +17,81 @@ More detailed explanation of the steps in the diagram:
 
 The actual flow of this process will differ depending on the authorization grant type in use, but this is the general idea.
 
+some real examples from my code using Apollo, jwt and bcrypt:
+
+```javascript
+// Backend
+
+//index.ts the context: We validate the token and grants access to the user
+
+//...
+await DbService.connect().then(
+    () => {
+      const server = new ApolloServer({
+        typeDefs,
+        resolvers,
+        context: async ({ req }) => {
+          const authHeader = req.headers.authorization || "";
+          const token = authHeader.split(" ")[1];
+          const validateToken = await tokenValidation(token);
+          if (validateToken) {
+            const user = await DbService.getUserFromToken(token);
+            return { user };
+          } else {
+            return {};
+          }
+        },
+      });
+//...
+
+//Login where ncrypt the password and create the token with the secret
+
+// ...
+export const loginMutation = async (
+  parent: null | undefined,
+  { email, password }: LoginParams
+) => {
+  const user = await DbService.getUser(email);
+
+  if (!user) {
+    return {
+      ok: false,
+      error: "El usuario no existe",
+    };
+  }
+  const isEqual = await bcrypt.compareSync(password, user.password);
+  if (!isEqual) {
+    return {
+      ok: false,
+      error: "Contraseña incorrecta",
+    };
+  }
+  const token = sign({ email: user.email }, process.env.SECRET as string, {
+    expiresIn: "1h",
+  });
+  DbService.updateTokenOnUser(user.email, token);
+  return { ok: true, email: user.email, token, tokenExpirationHours: 1 };
+};
+//...
+
+// createReservation where we check if the user is logged in
+
+//...
+export const createReservationMutation = async (
+  parent: null | undefined,
+  { timestamp, spotId, kayakReservations, paymentId }: ReservationParams,
+  context: UserContext
+) => {
+  if (!context.user) {
+    return {
+      error: "Es necesario estar identificado como usuario.",
+    };
+  }
+//... 
+
+
+```
+
 
 
 
