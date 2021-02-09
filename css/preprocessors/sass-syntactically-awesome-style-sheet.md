@@ -4,7 +4,7 @@ description: Syntactically Awesome Stylesheet
 
 # Sass: Syntactically Awesome Style Sheet
 
-Sass is an extension to CSS and completely compatible with all versions of CSS,  a valid `.css` file is a valid `.scss` file as well. Sass follows the [DRY \(Don’t Repeat Yourself\)](http://wiki.c2.com/?DontRepeatYourself) programming principle in order to avoid duplication so it reduces repetition of code, make it easyer to maintain and therefore saves time.
+Sass is an extension to CSS and completely compatible with all versions of CSS,  a valid `.css` file is a valid `.scss` file as well. Sass follows the [DRY \(Don’t Repeat Yourself\)](http://wiki.c2.com/?DontRepeatYourself) programming principle in order to avoid duplication so it reduces repetition of code, make it easier to maintain and therefore saves time.
 
 It provide several mechanisms available in more traditional programming languages, particularly object-oriented languages: Variables, Nesting, Loops, Arguments... 
 
