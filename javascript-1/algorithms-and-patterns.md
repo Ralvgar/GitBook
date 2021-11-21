@@ -8,7 +8,7 @@ They decrease the overall codebase by doing away with unnecessary repetitions, t
 
 #### Module Design Pattern
 
-The different types of modifiers \(both private and public\) are set in the module pattern. You can create similar functions or properties without conflicts. There is the flexibility of renaming functions publicly. The daunting part of this is the inability to override the created functions from the outside environment.
+The different types of modifiers (both private and public) are set in the module pattern. You can create similar functions or properties without conflicts. There is the flexibility of renaming functions publicly. The daunting part of this is the inability to override the created functions from the outside environment.
 
 ```javascript
 function AnimalContainter () {
@@ -50,7 +50,7 @@ console.log(container.get()); //Array(2) ["Hen", "Goat"]
 
 #### Singleton Pattern
 
-The Singleton  **pattern**  restricts the instantiation of a class to one "single" instance. This is useful when exactly one object is needed to coordinate actions across the system without having to recreate that object or losing the information inside of it.
+The Singleton  **pattern  **restricts the instantiation of a class to one "single" instance. This is useful when exactly one object is needed to coordinate actions across the system without having to recreate that object or losing the information inside of it.
 
 ```javascript
 function DatabaseConnection () {
@@ -138,7 +138,7 @@ console.log(myTablet); //Tablet { ram: 4, hdd: 128, network: '4G', name: 'Bab\'s
 
 #### Observer Pattern
 
- The observer pattern is a design pattern in which subjects \(which are simply just _objects_ with methods\) maintain a list of observers who are _registered_ to be notified of upcoming messages.
+&#x20;The observer pattern is a design pattern in which subjects (which are simply just _objects_ with methods) maintain a list of observers who are _registered_ to be notified of upcoming messages.
 
 When they receive a notification event about something on the subject they are attached to, they can use these opportunities to do something useful, depending on what was received from them. Useful in situations when you need multiple objects to get notified simultaneously at the same time of recent changes to state.
 
@@ -175,4 +175,3 @@ Observer.prototype.notifyAll = function (element) {
 #### Conclusion
 
 It is beneficial for JavaScript developers to use design patterns. Some major advantages of using design patterns include project maintainability and also cuts off unnecessary work on the development cycle.
-

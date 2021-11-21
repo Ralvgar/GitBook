@@ -27,16 +27,17 @@
   * [NanoID](react/useful-libraries/nanoid.md)
   * [React Router](react/useful-libraries/react-router/README.md)
     * [Route](react/useful-libraries/react-router/route.md)
-    * [useHistory\(\)](react/useful-libraries/react-router/usehistory.md)
-    * [useParams\(\)](react/useful-libraries/react-router/usestate.md)
+    * [useHistory()](react/useful-libraries/react-router/usehistory.md)
+    * [useParams()](react/useful-libraries/react-router/usestate.md)
   * [React Transition Group](react/useful-libraries/react-transition-group.md)
   * [Styled Components](react/useful-libraries/styled-components.md)
   * [Visx](react/useful-libraries/visx.md)
 
-## JavaScript <a id="javascript-1"></a>
+## JavaScript <a href="javascript-1" id="javascript-1"></a>
 
 * [Authentication and Authorization](javascript-1/authentication-and-authorization.md)
-* [Capturing, Target and Bubbling.](javascript-1/capturing-target-and-bubbling..md)
+* [Capturing, Target and Bubbling.](javascript-1/capturing-target-and-bubbling./README.md)
+  * [Event delegation](javascript-1/capturing-target-and-bubbling./event-delegation.md)
 * [Connection with REST APIs](javascript-1/connection-with-rest-apis.md)
 * [Design Patterns](javascript-1/algorithms-and-patterns.md)
 * [DOM](javascript-1/dom.md)
@@ -72,7 +73,7 @@
 
 ## Deploy
 
-* [CI \(Continous integration\)](deploy/ci-continous-integration.md)
+* [CI (Continous integration)](deploy/ci-continous-integration.md)
 * [NodeJS app deployment](deploy/nodejs-app-deployment.md)
 * [publishing a package to NPM](deploy/publishing-a-package-to-npm.md)
 * [React app deployment](deploy/react-app-deployment.md)
@@ -81,4 +82,3 @@
 
 * [Cache](html5/cache.md)
 * [Local storage](html5/local-storage.md)
-

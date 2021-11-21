@@ -14,7 +14,7 @@ For example, it can be used to:
 
 The syntax of pseudo-classes:
 
-```text
+```
 selector:pseudo-class {
   property: value;
 }
@@ -33,7 +33,7 @@ For example, it can be used to:
 
 The syntax of pseudo-elements:
 
-```text
+```
 selector::pseudo-element {
   property: value;
 }
@@ -41,7 +41,6 @@ selector::pseudo-element {
 
 ### The double colon
 
- The double colon \(`::`\) was introduced in CSS3 to differentiate pseudo-elements such as `::before` and `::after` from pseudo-classes such as `:hover` and `:active`. All browsers support double colons for pseudo-elements except Internet Explorer \(IE\) 8 and below.
+&#x20;The double colon (`::`) was introduced in CSS3 to differentiate pseudo-elements such as `::before` and `::after` from pseudo-classes such as `:hover` and `:active`. All browsers support double colons for pseudo-elements except Internet Explorer (IE) 8 and below.
 
-{% embed url="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building\_blocks/Selectors/Pseudo-classes\_and\_pseudo-elements" %}
-
+{% embed url="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements" %}

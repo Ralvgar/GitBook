@@ -6,15 +6,15 @@ description: ECMAScript (European Computer Manufacturer’s Association)
 
 ECMAScript is a Standard for a scripting languages. It is the core that builds JavaScript.
 
- Languages such as ActionScript, JavaScript, JScript all use ECMAScript as its core. As a comparison, AS/JS/JScript are 3 different cars, but they all use the same engine. 
+&#x20;Languages such as ActionScript, JavaScript, JScript all use ECMAScript as its core. As a comparison, AS/JS/JScript are 3 different cars, but they all use the same engine.&#x20;
 
-EcmaScript has different versions, to see what is compatible with different web browsers we can use websites like [https://caniuse.com/](https://caniuse.com/)
+EcmaScript has different versions, to see what is compatible with different web browsers we can use websites like [https://caniuse.com/](https://caniuse.com)
 
 to make work modern code on older engines there are two tools: Transpilers and Polyfills.
 
 ### Transpilers
 
- A transpiler is a special piece of software that can parse \(“read and understand”\) modern code, and rewrite it using older syntax constructs, so that the result would be the same.
+&#x20;A transpiler is a special piece of software that can parse (“read and understand”) modern code, and rewrite it using older syntax constructs, so that the result would be the same.
 
 ### Polyfillls
 
@@ -26,7 +26,7 @@ polyfill is a script that updates/adds new functions. It “fills in” the gap 
 
 ## ES Update versions
 
-### \*\*\*\*[**ES6 / ES2015**](https://www.greycampus.com/blog/programming/java-script-versions)\*\*\*\*
+### ****[**ES6 / ES2015**](https://www.greycampus.com/blog/programming/java-script-versions)****
 
 * Standard Modules — `import` and `export`
 * Standardised Promises
@@ -40,8 +40,8 @@ polyfill is a script that updates/adds new functions. It “fills in” the gap 
 
 ### [ES7 / ES2016](https://www.greycampus.com/blog/programming/java-script-versions)
 
-* Array.includes\(\)
-* Numeric exponent \(power of\) operator `**`
+* Array.includes()
+* Numeric exponent (power of) operator `**`
 
 ### [ES8 / ES2017](https://www.greycampus.com/blog/programming/java-script-versions)
 
@@ -54,7 +54,7 @@ polyfill is a script that updates/adds new functions. It “fills in” the gap 
 * Object Rest/Spread `const obj = { ...props };`
 * Asynchronous Iteration `for await (...) {`
 * Promise `finally()` function
-* Regular expression enhancements \(lookbehind, named groups\)
+* Regular expression enhancements (lookbehind, named groups)
 
 
 
@@ -72,13 +72,11 @@ polyfill is a script that updates/adds new functions. It “fills in” the gap 
 ### [ES11 / ES2020 ](https://medium.com/codingtown/ecmascript-2020-aka-es-11-9c547f69d96f)
 
 * BigInt
-* import\(\)
-* Promise.allSettled\(\)
+* import()
+* Promise.allSettled()
 * globalThis
 * Nullish Coalescing Operator `??`
 * Optional Chaining Operator `?.`
-
-
 
 
 
